@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#121212">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Hidden Voice"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:src="@android:drawable/ic_menu_call"
+        android:tint="#4CAF50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Enter Room Name"
+        android:textColor="#BBBBBB"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextRoomName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="e.g., room1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888"
+        android:backgroundTint="#4CAF50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Or Select a Room"
+        android:textColor="#BBBBBB"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerRooms"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2196F3"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/btnSpeaker"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Join as Speaker"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:drawableStart="@android:drawable/ic_btn_speak_now"
+        android:paddingStart="16dp" />
+
+    <Button
+        android:id="@+id/btnListener"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Join as Listener"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:drawableStart="@android:drawable/ic_menu_view"
+        android:paddingStart="16dp" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@AyukiDev"
+        android:textColor="#888888"
+        android:textSize="12sp"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#121212">
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Listening in Room"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewRoomName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="room1"
+        android:textColor="#BBBBBB"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:src="@android:drawable/stat_sys_headset"
+        android:tint="#2196F3" />
+
+    <TextView
+        android:id="@+id/textViewCallStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Connected"
+        android:textColor="#4CAF50"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnEndCall"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="End Call"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF"
+        android:drawableStart="@android:drawable/ic_menu_close_clear_cancel"
+        android:paddingStart="16dp" />
+
+</LinearLayout>
