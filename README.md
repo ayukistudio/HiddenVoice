@@ -11,15 +11,16 @@ Hidden Voice is a simple Android voice chat application that allows users to cre
 
 ## Screenshots
 
-### Main Screen
 The main screen allows users to enter a room name or select from a list of existing rooms and join as either a Speaker or Listener.
 
-![Main Screen](https://raw.githubusercontent.com/ayukistudio/HiddenVoice/main/img/1.jpg)
+<br /><br />
+<h2 align="center">Preview</h2>
 
-### Speaker Screen
-The Speaker screen shows the current room, connection status, and provides an option to end the call.
+Main             |  Room
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/ayukistudio/HiddenVoice/refs/heads/main/img/1.jpg?token=GHSAT0AAAAAADCVORLL44STG7K4BKNK66OW2AKYV5A" width="700">  |  <img src="https://raw.githubusercontent.com/ayukistudio/HiddenVoice/refs/heads/main/img/2.jpg?token=GHSAT0AAAAAADCVORLLJT7KHXRNIZE5XISG2AKYZ5A" width="700">
 
-![Speaker Screen](https://raw.githubusercontent.com/ayukistudio/HiddenVoice/main/img/2.jpg)
+<br />
 
 ## Prerequisites
 
