@@ -1,13 +1,14 @@
-# Hidden Voice
+# Hidden Voice: Oral Exam Helper for Students
 
-Hidden Voice is a simple Android voice chat application that allows users to create or join rooms and communicate as either a Speaker or a Listener. The app connects to a Python-based server to relay audio between participants in real-time.
+Hidden Voice is an Android voice chat application designed specifically for students preparing for oral exams. It allows students to practice by creating or joining study rooms where one student can speak (e.g., answering exam questions) while others listen and provide feedback in real-time. The app connects to a Python-based server to relay audio, making it a perfect tool for group study sessions. Hidden Voice is compatible with Bluetooth headsets and other audio devices for a seamless experience during practice.
 
 ## Features
-- Create or join voice chat rooms with custom names.
-- Join as a Speaker to send audio or as a Listener to receive audio.
+- Create or join study rooms with custom names to practice for oral exams.
+- Join as a Speaker to simulate answering exam questions or as a Listener to provide feedback.
 - User-friendly interface with call status indicators and icons.
 - End call functionality with a clear UI.
 - Server-side support for multiple rooms and proper audio relay.
+- Compatible with Bluetooth headsets and other audio devices for hands-free practice.
 
 ## Screenshots
 
