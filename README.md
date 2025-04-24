@@ -19,7 +19,7 @@ The main screen allows users to enter a room name or select from a list of exist
 
 Main             |  Room
 :-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/ayukistudio/HiddenVoice/refs/heads/main/img/1.jpg?token=GHSAT0AAAAAADCVORLKZU5Q7RYVBLV32A2C2AKY3BQ" width="700">  |  <img src="https://raw.githubusercontent.com/ayukistudio/HiddenVoice/refs/heads/main/img/2.jpg?token=GHSAT0AAAAAADCVORLLJT7KHXRNIZE5XISG2AKYZ5A" width="700">
+<img src="https://raw.githubusercontent.com/ayukistudio/HiddenVoice/refs/heads/main/img/1.jpg" width="700">  |  <img src="https://raw.githubusercontent.com/ayukistudio/HiddenVoice/refs/heads/main/img/2.jpg" width="700">
 
 <br />
 
